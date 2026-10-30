@@ -1,0 +1,6 @@
+{"ts":"2026-10-30T07:49:29.942Z","level":"info","event":"request_started","message":"health","request_id":"ea45c31b-3714-49c6-bbde-d11e1244c239","method":"GET","path":"/api/health"}
+{"ts":"2026-10-30T07:49:29.950Z","level":"info","event":"request_completed","message":"health","request_id":"ea45c31b-3714-49c6-bbde-d11e1244c239","method":"GET","path":"/api/health","status":200,"duration_ms":9}
+{"ts":"2026-10-30T07:55:38.267Z","level":"info","event":"request_started","message":"health","request_id":"693d9130-83ef-4505-b996-a4b59ca80857","method":"GET","path":"/api/health"}
+{"ts":"2026-10-30T07:55:39.775Z","level":"info","event":"request_completed","message":"health","request_id":"693d9130-83ef-4505-b996-a4b59ca80857","method":"GET","path":"/api/health","status":200,"duration_ms":1508}
+{"ts":"2026-10-30T07:57:35.541Z","level":"info","event":"request_started","message":"health","request_id":"8af4b6c3-e580-42bb-8e8c-6687faf7c77e","method":"GET","path":"/api/health"}
+{"ts":"2026-10-30T07:57:36.293Z","level":"info","event":"request_completed","message":"health","request_id":"8af4b6c3-e580-42bb-8e8c-6687faf7c77e","method":"GET","path":"/api/health","status":200,"duration_ms":752}
