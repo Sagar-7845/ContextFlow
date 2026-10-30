@@ -16,6 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="text-lg font-bold text-indigo-700">ContextFlow</Link>
             <Link href="/meetings" className="text-sm hover:text-indigo-700">Meetings</Link>
             <Link href="/items" className="text-sm hover:text-indigo-700">Action Items</Link>
+            <Link href="/kb" className="text-sm hover:text-indigo-700">Knowledge Base</Link>
             <Link href="/logs" className="text-sm hover:text-indigo-700">Logs</Link>
           </div>
         </nav>
