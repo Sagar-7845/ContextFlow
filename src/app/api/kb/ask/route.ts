@@ -14,7 +14,7 @@ export const POST = withApi("kb_ask", async (req) => {
   const { question } = Body.parse(await readJson(req));
   const docs = must(await getSupabase().from("kb_documents").select("id,title,content,source_type"));
   const q = tok(question);
-  const top = docs
+  const top: { id: string; title: string; content: string; source_type: string }[] = docs
     .map((d: { id: string; title: string; content: string; source_type: string }) => {
       const t = tok(`${d.title} ${d.content}`);
       return { d, score: [...q].filter((w) => t.has(w)).length };
